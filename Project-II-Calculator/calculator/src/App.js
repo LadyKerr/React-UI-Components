@@ -4,6 +4,8 @@ import './App.css';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
+import MathSymbols from './components/ButtonComponents/MathSymbols';
+
 
 
 const App = () => {
@@ -32,9 +34,17 @@ const App = () => {
             <NumberButton text="3" />
           </div>
         </div>
+          <ActionButton text="0" />
       </div>
-
-        <ActionButton />
+      
+      <div className="calc-right">
+        <MathSymbols text="÷" />
+        <MathSymbols text="x" />
+        <MathSymbols text="-" />
+        <MathSymbols text="+" />
+        <MathSymbols text="=" />
+      </div>
+        
     </div>
   );
 };

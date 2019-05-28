@@ -1,0 +1,7 @@
+.calc-container {
+  height: 506px;
+  width: 400px;
+  margin: 40px auto; 
+  border: 2px solid #A9A9A9;
+  font-family: sans-serif;
+}

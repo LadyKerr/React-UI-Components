@@ -11,13 +11,15 @@ import MathSymbols from './components/ButtonComponents/MathSymbols';
 const App = () => {
   return (
     <div className="calc-container">
+
       <div className="calc-top-black">
         <CalculatorDisplay text="0" />
       </div>
-
-      <div className="calc-main">
+      <div className="calc-main-area">
+      <div className="calc-left">
         <ActionButton text="clear" />
         <div className="calc-nine">
+
           <div className="row-one">
             <NumberButton text="7" />
             <NumberButton text="8" />
@@ -35,7 +37,7 @@ const App = () => {
           </div>
         </div>
           <ActionButton text="0" />
-      </div>
+      </div> 
       
       <div className="calc-right">
         <MathSymbols text="÷" />
@@ -44,7 +46,7 @@ const App = () => {
         <MathSymbols text="+" />
         <MathSymbols text="=" />
       </div>
-        
+      </div>
     </div>
   );
 };

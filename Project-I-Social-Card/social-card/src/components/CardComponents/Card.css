@@ -1,1 +1,6 @@
 /* All styles for your Card Components live here */
+
+.react-img {
+  width: 300px;
+  height: 200px;
+}

@@ -8,7 +8,7 @@
 
 .image-div {
   height: 50px;
-  padding: 0 20px;
+  padding: 2px;
 }
 
 .image {
@@ -23,7 +23,7 @@
 .header-title {
   font-size: 14px;
   font-weight: 500;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 
 .header-title-div {
@@ -34,6 +34,6 @@
 .header-content {
   font-size: 14px;
   font-weight: 400;
-  width: 90%;
+  width: 94%;
   line-height: 1.2;
 }

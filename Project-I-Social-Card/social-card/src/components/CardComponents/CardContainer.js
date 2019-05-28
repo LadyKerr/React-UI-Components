@@ -12,5 +12,3 @@ const CardContainer = () => {
 };
 
 export default CardContainer;
-
-//wrap entire carcontainer in an <a /> tag then use css to style text-decoration.

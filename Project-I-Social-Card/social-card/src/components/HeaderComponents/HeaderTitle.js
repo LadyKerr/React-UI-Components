@@ -1,11 +1,12 @@
 import React from 'react';
-import ImageThumbnail from './ImageThumbnail';
 import './Header.css';
 
 const HeaderTitle = () => {
   return (
-    <ImageThumbnail />
+    <p>
+      <strong>Lambda School</strong> @LambdaSchool *8 Jan
+    </p>
   );
-}
+};
 
 export default HeaderTitle;
